@@ -1,0 +1,640 @@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at FinalProjectForm.Tasks..ctor(String taskid, String title, String timeto, String description, String personid) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataObjects\Tasks.cs:line 35 | Erorr: 8System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetUserData(Int32 userpernum) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 227
+   at FinalProjectForm.Forms.Login.Loginbtn_Click(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\Login.cs:line 40 | Erorr: 100System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetUserData(Int32 userpernum) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 227
+   at FinalProjectForm.Forms.Login.Loginbtn_Click(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\Login.cs:line 40 | Erorr: 100System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetUserData(Int32 userpernum) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 227
+   at FinalProjectForm.Forms.Login.Loginbtn_Click(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\Login.cs:line 40 | Erorr: 100System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.Serchbtn_Click_1(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 186 | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201SELECT* FROM `tasks` WHERE + WorkerIDLIKE '%577%' | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201 | Erorr: 3 | Erorr: 3 | Erorr: 3 | Erorr: 3לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201לא נמצא מידע רלוונטי! | Erorr: 201System.InvalidCastException: Specified cast is not valid.
+   at testMySQLConnection.DBConnection.ExecutScalarIntQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 113 | Erorr: 602System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.FillTasksList(Int32 usernum, Int32 archaive) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 76 | Erorr: 200System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksForm.FillTasksList(Int32 usernum, Int32 archaive) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksForm.cs:line 76 | Erorr: 200MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND3' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND3' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(TaskID,Title, DueDate,Details,WorkerID,AssignedBy,Type) VALUES (0,'לצבו...' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(TaskID,Title, DueDate,Details,WorkerID,AssignedBy,Type) VALUES (0,'לצבו...' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(TaskID,Title, DueDate,Details,WorkerID,AssignedBy,Type) VALUES (0,'לצבו...' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(TaskID,Title, DueDate,Details,WorkerID,AssignedBy,Type) VALUES (0,'לצבו...' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(TaskID,Title, DueDate,Details,WorkerID,AssignedBy,Type) VALUES (0,'לצבו...' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(TaskID,Title, DueDate,Details,WorkerID,AssignedBy,Type) VALUES (0,'לצבו...' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600System.NullReferenceException: Object reference not set to an instance of an object.
+   at FinalProjectForm.Forms.TasksViewer.FillTasksList() in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\TasksViewer.cs:line 40 | Erorr: 500missing input | Erorr: 1System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetUserData(Int32 userpernum) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 321
+   at FinalProjectForm.Forms.Login.Loginbtn_Click(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\Login.cs:line 47 | Erorr: 100System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetUserData(Int32 userpernum) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 321
+   at FinalProjectForm.Forms.Login.Loginbtn_Click(Object sender, EventArgs e) in C:\Users\Yaniv\source\repos\FinalProjectForm\Forms\Login.cs:line 47 | Erorr: 100ישנם שדות ריקים | Erorr: 101ישנם שדות ריקים | Erorr: 101שם משתמש או סיסמא לא נכונים | Erorr: 102ישנם שדות ריקים | Erorr: 211ישנם שדות ריקים | Erorr: 211
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+System.Windows.Forms.FormClosingEventArgs | Erorr: 111
+System.Windows.Forms.FormClosingEventArgs | Erorr: 111
+System.Windows.Forms.FormClosingEventArgs | Erorr: 111
+System.Windows.Forms.FormClosingEventArgs | Erorr: 111
+System.Windows.Forms.FormClosingEventArgs | Erorr: 111
+System.Windows.Forms.FormClosingEventArgs | Erorr: 111
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'serialnumber ' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at testMySQLConnection.DBSQL.GetEquipmentById(Int32 Equipmentidtofind) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 453 | Erorr: 310
+ישנם שדות ריקים | Erorr: 101
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`iafnumber` = '56767'' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `iafnumber` = ''' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `department` LIKE 'dfs'' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `department` LIKE ''' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'כ' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'כ' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'כביסה' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'כב' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'כב' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'כב' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'כביסה AND `TaskFinished` BETWEEN 0 AND 0' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at testMySQLConnection.DBConnection.GetMultipleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 144 | Erorr: 603
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+לא נמצא מידע רלוונטי! | Erorr: 201
+SELECT * FROM `tasks` WHERE DueDate = 2021-08-15 AND `TaskFinished` BETWEEN 0 AND 0 | Erorr: 999
+SELECT * FROM `tasks` WHERE DueDate = 2021-08-15 | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+SELECT * FROM `tasks` WHERE DueDate = 2021-08-15 | Erorr: 999
+SELECT * FROM `tasks` WHERE 'DueDate' = 2021-08-15 | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+SELECT * FROM `tasks` WHERE 'DueDate' = 2021-08-15 | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+SELECT * FROM `tasks` WHERE 'DueDate' = 2021-08-15 | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+SELECT * FROM `tasks` WHERE 'DueDate' = 2021-08-15 | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at testMySQLConnection.DBConnection.Connect() in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 54 | Erorr: 601
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+לא נמצא מידע רלוונטי! | Erorr: 201
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: One or more errors occurred. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Inner Exception #0) System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at testMySQLConnection.DBConnection.Connect() in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 54 | Erorr: 601
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+מספר אישי לא תקין! | Erorr: 700
+מספר אישי לא תקין! | Erorr: 700
+מספר אישי לא תקין! | Erorr: 700
+מספר אישי לא תקין! | Erorr: 700
+חסר מספר אישי! | Erorr: 701
+חסר מספר אישי! | Erorr: 701
+חסר מספר אישי! | Erorr: 701
+MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Parameter '@personalID' must be defined.
+   at MySql.Data.MySqlClient.Statement.SerializeParameter(MySqlParameterCollection parameters, MySqlPacket packet, String parmName, Int32 parameterIndex)
+   at MySql.Data.MySqlClient.Statement.InternalBindParameters(String sql, MySqlParameterCollection parameters, MySqlPacket packet)
+   at MySql.Data.MySqlClient.Statement.BindParameters()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetHrRowById(Int32 idtofind) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 724 | Erorr: 310
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetHrRowById(Int32 idtofind) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 724 | Erorr: 310
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetHrRowById(Int32 idtofind) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 724 | Erorr: 310
+שגיאה לא ניתן לגשת לרשומה! | Erorr: 800
+מספר אישי לא תקין! | Erorr: 700
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetHrRowById(Int32 idtofind) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 724 | Erorr: 310
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at testMySQLConnection.DBSQL.GetHrRowById(Int32 idtofind) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBSQL.cs:line 724 | Erorr: 310
+ישנם שדות ריקים | Erorr: 101
+מספר אישי לא תקין! | Erorr: 700
+מספר אישי לא תקין! | Erorr: 700
+נא לבחור פרק זמן! | Erorr: 900
+נא לבחור פרק זמן! | Erorr: 900
+נא לבחור פרק זמן! | Erorr: 900
+ישנם שדות ריקים! | Erorr: 901
+ישנם שדות ריקים! | Erorr: 901
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים! | Erorr: 901
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'iaf.logistic' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) in C:\Users\Yaniv\source\repos\FinalProjectForm\DataBase\DBConnection.cs:line 83 | Erorr: 600
+מספר אישי לא תקין! | Erorr: 700
+יש לבדוק שדה מספר אישי! | Erorr: 701
+יש לבדוק שדה מספר אישי! | Erorr: 701
+יש לבדוק שדה מספר אישי! | Erorr: 701
+יש לבדוק שדה מספר אישי! | Erorr: 701
+ישנם שדות ריקים | Erorr: 101
+שגיאה בקריאת בר-קוד! | Erorr: 1
+שגיאה בקריאת בר-קוד! | Erorr: 1
+שגיאה בקריאת בר-קוד! | Erorr: 1
+ישנם שדות ריקים | Erorr: 211
+ישנם שדות ריקים | Erorr: 211
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+ישנם שדות ריקים | Erorr: 101
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+ישנם שדות ריקים | Erorr: 101
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+MySql.Data.MySqlClient.MySqlCommand | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+SELECT * FROM tasks WHERE @ByWhat = @SearchFor AND TaskFinished BETWEEN 0 AND @showfinished | Erorr: 999
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+עליך לבחור רכיב תחילה | Erorr: 990
+עליך לבחור רכיב תחילה | Erorr: 990
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+שמירה בוטלה | Erorr: 3000
+שמירה בוטלה | Erorr: 3000
+מספר אישי לא תקין! | Erorr: 700
+עליך לבחור רכיב תחילה | Erorr: 990
+מספר אישי לא תקין! | Erorr: 700
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+ישנם שדות ריקים | Erorr: 101
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+לא נמצא מידע רלוונטי! | Erorr: 201
+מספר אישי לא תקין! | Erorr: 700
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+מספר אישי לא תקין! | Erorr: 700
+מספר אישי לא תקין! | Erorr: 700
+MySql.Data.MySqlClient.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`iaf`.`hr`, CONSTRAINT `userid` FOREIGN KEY (`personalID`) REFERENCES `users` (`personalnumber`))
+   ב-  MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   ב-  MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   ב-  MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   ב-  MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   ב-  MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   ב-  MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   ב-  MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   ב-  testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) ב- C:\Users\david\Desktop\FINAL\1.5\FinalProjectForm\DataBase\DBConnection.cs:שורה 83 | Erorr: 600
+MySql.Data.MySqlClient.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`iaf`.`hr`, CONSTRAINT `userid` FOREIGN KEY (`personalID`) REFERENCES `users` (`personalnumber`))
+   ב-  MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   ב-  MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   ב-  MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   ב-  MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   ב-  MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   ב-  MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   ב-  MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   ב-  testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) ב- C:\Users\david\Desktop\FINAL\1.5\FinalProjectForm\DataBase\DBConnection.cs:שורה 83 | Erorr: 600
+יש לבדוק שדה מספר אישי! | Erorr: 701
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '2' for key 'PRIMARY'
+   ב-  MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   ב-  MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   ב-  MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   ב-  MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   ב-  MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   ב-  MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   ב-  MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   ב-  testMySQLConnection.DBConnection.ExecuteSimpleQuery(MySqlCommand command) ב- C:\Users\david\Desktop\FINAL\1.5\FinalProjectForm\DataBase\DBConnection.cs:שורה 83 | Erorr: 600
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> ‎System.AggregateException: אירעה שגיאה אחת או יותר. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   ב-  System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- סוף רכיב מעקב אחר מחסנית של מצב חריג פנימי ---
+   ב-  System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   ב-  System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   ב-  MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   ב-  MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   ב-  MySql.Data.MySqlClient.NativeDriver.Open()
+---> (חריגה פנימית #0) System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   ב-  System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   ב-  MySql.Data.MySqlClient.NativeDriver.Open()
+   ב-  MySql.Data.MySqlClient.Driver.Open()
+   ב-  MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   ב-  MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   ב-  MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   ב-  MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   ב-  MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   ב-  MySql.Data.MySqlClient.MySqlConnection.Open()
+   ב-  testMySQLConnection.DBConnection.Connect() ב- C:\Users\david\OneDrive\Desktop\projects\1.5\FinalProjectForm\DataBase\DBConnection.cs:שורה 54 | Erorr: 601
+שם משתמש או סיסמא לא נכונים | Erorr: 102
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> ‎System.AggregateException: אירעה שגיאה אחת או יותר. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   ב-  System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- סוף רכיב מעקב אחר מחסנית של מצב חריג פנימי ---
+   ב-  System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   ב-  System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   ב-  MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   ב-  MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   ב-  MySql.Data.MySqlClient.NativeDriver.Open()
+---> (חריגה פנימית #0) System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   ב-  System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   ב-  System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   ב-  MySql.Data.MySqlClient.NativeDriver.Open()
+   ב-  MySql.Data.MySqlClient.Driver.Open()
+   ב-  MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   ב-  MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   ב-  MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   ב-  MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   ב-  MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   ב-  MySql.Data.MySqlClient.MySqlConnection.Open()
+   ב-  testMySQLConnection.DBConnection.Connect() ב- C:\Users\david\OneDrive\Desktop\projects\1.5\FinalProjectForm\DataBase\DBConnection.cs:שורה 54 | Erorr: 601
+שם משתמש או סיסמא לא נכונים | Erorr: 102
